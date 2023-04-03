@@ -1,0 +1,68 @@
+[[SZ3]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f3f09905839713c0e1fb48f66d87b34d061cb656"
+libc = "glibc"
+os = "linux"
+
+    [[SZ3.download]]
+    sha256 = "ee797d66a28c7a45cdf1edda6f0431d9069a671d0975fbe4c5b757e7616ea1ce"
+    url = "https://github.com/JuliaBinaryWrappers/SZ3_jll.jl/releases/download/SZ3-v3.1.7+0/SZ3.v3.1.7.aarch64-linux-gnu-cxx03.tar.gz"
+[[SZ3]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a499ec599b14553b1bc111ba5693530b1fae40ad"
+libc = "glibc"
+os = "linux"
+
+    [[SZ3.download]]
+    sha256 = "422947dcef9111005ab4f23ea05d7732a745dbfbca76da1f67e9f2980dfe16be"
+    url = "https://github.com/JuliaBinaryWrappers/SZ3_jll.jl/releases/download/SZ3-v3.1.7+0/SZ3.v3.1.7.aarch64-linux-gnu-cxx11.tar.gz"
+[[SZ3]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "d493860e631e19d120d6865e34c2303eedc770b3"
+libc = "glibc"
+os = "linux"
+
+    [[SZ3.download]]
+    sha256 = "6a70fc43d17a6bdb4fe46258baa68d32e95271b715743e86ad990e234e4f5f27"
+    url = "https://github.com/JuliaBinaryWrappers/SZ3_jll.jl/releases/download/SZ3-v3.1.7+0/SZ3.v3.1.7.powerpc64le-linux-gnu-cxx03.tar.gz"
+[[SZ3]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "89f5bc4623109f854ddd481690f4ef33bdb8d7d7"
+libc = "glibc"
+os = "linux"
+
+    [[SZ3.download]]
+    sha256 = "dc1073978a99e1e1a89732cbee7d1eec500d419583f00c5643ecf2f204722ce5"
+    url = "https://github.com/JuliaBinaryWrappers/SZ3_jll.jl/releases/download/SZ3-v3.1.7+0/SZ3.v3.1.7.powerpc64le-linux-gnu-cxx11.tar.gz"
+[[SZ3]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "04639e68ea7620e8a343ca6092c8daa885d50c20"
+libc = "glibc"
+os = "linux"
+
+    [[SZ3.download]]
+    sha256 = "95edf95c0a1e253f549c7b1bb14db944a3f2dd04b3e36379c5da30ec540780dd"
+    url = "https://github.com/JuliaBinaryWrappers/SZ3_jll.jl/releases/download/SZ3-v3.1.7+0/SZ3.v3.1.7.x86_64-linux-gnu-cxx03.tar.gz"
+[[SZ3]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ed2e946177ac6caff520e31e8d23dfa2832e9b5b"
+libc = "glibc"
+os = "linux"
+
+    [[SZ3.download]]
+    sha256 = "40e2854f961748c2e91b40effa83d44e1312ff8f0045d12bc75ff2551ab6c2fa"
+    url = "https://github.com/JuliaBinaryWrappers/SZ3_jll.jl/releases/download/SZ3-v3.1.7+0/SZ3.v3.1.7.x86_64-linux-gnu-cxx11.tar.gz"
+[[SZ3]]
+arch = "x86_64"
+git-tree-sha1 = "ae2dd85560f4a1cde1ce18a332bb1429f95760d0"
+os = "freebsd"
+
+    [[SZ3.download]]
+    sha256 = "736378af922f7e8582c544873aa36f179b59b348e28003eff0d7a11a75d435bf"
+    url = "https://github.com/JuliaBinaryWrappers/SZ3_jll.jl/releases/download/SZ3-v3.1.7+0/SZ3.v3.1.7.x86_64-unknown-freebsd.tar.gz"
