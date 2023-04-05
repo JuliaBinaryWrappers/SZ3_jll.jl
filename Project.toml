@@ -1,15 +1,16 @@
 name = "SZ3_jll"
 uuid = "2cc4d701-0ab1-5f48-b3f6-a678509d3d6f"
-version = "3.1.7+0"
+version = "3.1.7+1"
 
 [deps]
+Zstd_jll = "3161d3a3-bdf6-5164-811a-617609db77b4"
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
 CompilerSupportLibraries_jll = "e66e0078-7015-5450-92f7-15fbd957f2ae"
 GSL_jll = "1b77fbbe-d8ee-58f0-85f9-836ddc23a7a4"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+LLVMOpenMP_jll = "1d63c593-3942-5779-bab2-d838dc0a180e"
 HDF5_jll = "0234f1f7-429e-5d53-9886-15a909be8d59"
-Zstd_jll = "3161d3a3-bdf6-5164-811a-617609db77b4"
 
 [compat]
 JLLWrappers = "1.2.0"
