@@ -3,6 +3,7 @@ export libSZ3c, libhdf5sz3, mdz, mdz_smoke_test, sz3, sz3_smoke_test
 
 using LLVMOpenMP_jll
 using GSL_jll
+using HDF5_jll
 using Zstd_jll
 JLLWrappers.@generate_wrapper_header("SZ3")
 JLLWrappers.@declare_library_product(libSZ3c, "libSZ3c.so")
@@ -12,7 +13,7 @@ JLLWrappers.@declare_executable_product(mdz_smoke_test)
 JLLWrappers.@declare_executable_product(sz3)
 JLLWrappers.@declare_executable_product(sz3_smoke_test)
 function __init__()
-    JLLWrappers.@generate_init_header(LLVMOpenMP_jll, GSL_jll, Zstd_jll)
+    JLLWrappers.@generate_init_header(LLVMOpenMP_jll, GSL_jll, HDF5_jll, Zstd_jll)
     JLLWrappers.@init_library_product(
         libSZ3c,
         "lib/libSZ3c.so",
